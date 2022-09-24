@@ -1,3 +1,12 @@
+## "Effect" or a "Side Effect"
+
+1. Render UI & React to user Input and re-render UI when needed.
+2. Manage State and Props , On event and Input Re-evaluate Component upon State and Props change.
+3. Side Effects are every thing else happening in project 
+Example - Sending http request, Storing something in local storage, Timers, Intervals 
+For all this use -> `useEffect(() => {...}, [dependencies])` hook.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
